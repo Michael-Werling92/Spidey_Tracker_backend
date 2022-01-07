@@ -4,7 +4,7 @@ class CreateSpideys < ActiveRecord::Migration[6.1]
       t.string :image
       t.string :alias
       t.string :surname
-      t.string :year
+      t.integer :year
 
       t.timestamps
     end
