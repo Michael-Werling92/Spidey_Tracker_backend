@@ -1,0 +1,2 @@
+class Spidey < ApplicationRecord
+end
