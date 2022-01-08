@@ -3,8 +3,12 @@ class ComicsController < ApplicationController
 
   # GET /comics
   def index
-    @comics = Comic.all
-
+    if params[:spidey_id]
+      @spidey = Spidey.find_by_id(params[:spidey_id])
+      @comics = @spidey.comics
+    else 
+      @comics = Comic.all
+    end
     render json: @comics
   end
 
