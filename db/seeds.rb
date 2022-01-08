@@ -7,14 +7,97 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Spidey.create(
-    image: "https://cdn.vox-cdn.com/thumbor/esqf-OLwFlI6EFHQGOEEsPooaWo=/0x0:1600x900/920x613/filters:focal(672x322:928x578):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/67762052/marvels_spiderman_remastered_screenshot_01_disclaimer_en_01oct20.0.png",
+    image: "https://i.pinimg.com/564x/9a/5e/2b/9a5e2bfe9a6ed176cf28fbf037f20332.jpg",
     alias: "Spiderman",
     surname: "Peter Parker",
     year: 1992
 )
 
+Spidey.create(
+    image: "https://i.pinimg.com/564x/9a/5e/2b/9a5e2bfe9a6ed176cf28fbf037f20332.jpg",
+    alias: "Spider Pig",
+    surname: "Peter Porker",
+    year: 1993
+)
+
+Spidey.create(
+    image: "https://i.pinimg.com/564x/9a/5e/2b/9a5e2bfe9a6ed176cf28fbf037f20332.jpg",
+    alias: "Spider Gwen",
+    surname: "Gwen Stacy",
+    year: 1987
+)
+
+Spidey.create(
+    image: "https://i.pinimg.com/564x/9a/5e/2b/9a5e2bfe9a6ed176cf28fbf037f20332.jpg",
+    alias: "Mecha Spiderman",
+    surname: "Larry Cables",
+    year: 1978
+)
+
+Spidey.create(
+    image: "https://i.pinimg.com/564x/9a/5e/2b/9a5e2bfe9a6ed176cf28fbf037f20332.jpg",
+    alias: "Dark Spiderman",
+    surname: "Eddie Brock",
+    year: 1992
+)
+
+Spidey.create(
+    image: "https://i.pinimg.com/564x/9a/5e/2b/9a5e2bfe9a6ed176cf28fbf037f20332.jpg",
+    alias: "Spiderman",
+    surname: "Miles Morales",
+    year: 2018
+)
+
 Comic.create(
     name: "The Amazing Spiderman",
-    year: 2009,
-    spidey_id: 1,
+    year: rand(1960..2022),
+    spidey_id: rand(1..6),
+)
+
+Comic.create(
+    name: "The Spectacular Spiderman",
+    year: rand(1960..2022),
+    spidey_id: rand(1..6),
+)
+
+Comic.create(
+    name: "The Incredible Spiderman",
+    year: rand(1960..2022),
+    spidey_id: rand(1..6),
+)
+
+Comic.create(
+    name: "The Best Spiderman",
+    year: rand(1960..2022),
+    spidey_id: rand(1..6),
+)
+
+Comic.create(
+    name: "The Neighborhood Spiderman",
+    year: rand(1960..2022),
+    spidey_id: rand(1..6),
+)
+
+Comic.create(
+    name: "The Spectacular Spiderman",
+    year: rand(1960..2022),
+    spidey_id: rand(1..6),
+)
+
+Comic.create(
+    name: "The Best Spiderman",
+    year: rand(1960..2022),
+    spidey_id: rand(1..6),
+)
+
+Comic.create(
+    name: "The Fantabulous Spiderman",
+    year: rand(1960..2022),
+    spidey_id: rand(1..6),
+)
+
+Comic.create(
+    name: "The Greatest Spiderman",
+    year: rand(1960..2022),
+    spidey_id: rand(1..6),
 )
