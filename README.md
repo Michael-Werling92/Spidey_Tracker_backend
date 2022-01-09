@@ -1,24 +1,16 @@
-# README
+Spidey Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Spidey Tracker app was created so that you can keep track of each Spidey superhero and track their appearances accross different comic universes. You can add a new Spidey to the database and in the future you will be able top add different comics to each Spidey.
 
-Things you may want to cover:
+Installation
+Clone the front end repo, which can be found here: https://github.com/Michael-Werling92/Spidey_Tracker_frontend
+Run 'npx serve' to get this front end setup running.
+Clone this repo.
+Run rails s on this repo to get the back end setup running.
+Open your browser to localhost:5000
 
-* Ruby version
+Contributing
+Please contact Michael Werling at mfw6mw@virginia.edu if you have any suggestions or contributions to make this application run better or have more functionality.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+License
+This application is available as open source under the terms of the MIT License.
