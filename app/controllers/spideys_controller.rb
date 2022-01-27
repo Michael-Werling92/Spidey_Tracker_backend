@@ -3,7 +3,12 @@ class SpideysController < ApplicationController
 
   # GET /spideys
   def index
-    @spideys = Spidey.all
+    if params[:q]
+      # return a filed movies list
+      @spideys = Spidey.search(params[:q])
+    else
+      @spideys = Spidey.all
+    end
 
     render json: @spideys
   end
